@@ -432,6 +432,7 @@ header, main, footer {
     justify-content: center;
     text-align: center;
     align-items: center;
+    overflow: visible;
 }
 
 .services_header h2 {
@@ -443,6 +444,7 @@ header, main, footer {
     justify-content: center;
     text-align: center;
     align-items: center;
+    overflow: visible;
 }
 
 .content-container-large {
@@ -540,10 +542,20 @@ header, main, footer {
 a {
     color: inherit; /* Inherit the color from the parent element */
     text-decoration: none; /* Remove underline for the link */
+    position: relative; /* Ensure relative positioning for the cursor */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: relative;
 }
 
 a:hover {
     text-decoration: underline; /* Optional: Add underline on hover */
+    position: relative; /* Ensure relative positioning for the cursor */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: relative;
 }
 
 .contact-box {
